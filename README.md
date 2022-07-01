@@ -1,6 +1,6 @@
 # SQL Editor
 
-### [Live Version]()
+### [Live Version](https://62bed7a9c118f84deec06960--cheerful-melomakarona-c90521.netlify.app/)
 
 A Web App For Basic SQL editor view to demonstrate where your users can query easily on a table using SQL and have ui components for the functionalities that can be added.
 
@@ -16,7 +16,7 @@ A Web App For Basic SQL editor view to demonstrate where your users can query ea
 
 ## How to run:
 
-1. [Download] or [Clone](https://github.com/blueuwu/mysqleditor.git) the Repository.
+1. [Download](https://github.com/blueuwu/mysqleditor/archive/refs/heads/main.zip) or [Clone](https://github.com/blueuwu/mysqleditor.git) the Repository.
 2. Run `yarn install` to install the project dependencies.
 
 3. Run `yarn start` to run the app in development mode.
@@ -27,7 +27,9 @@ A Web App For Basic SQL editor view to demonstrate where your users can query ea
 
 Page Load TIme has been calculated by using the [Lighthouse Tool](https://developers.google.com/web/tools/lighthouse).
 
-![img]()
+![img](https://user-images.githubusercontent.com/80516804/176891254-6b0d74dd-72ce-4335-870b-4f05d99d5ed6.PNG)
+![img](https://user-images.githubusercontent.com/80516804/176891448-6b6c1552-fe5e-466d-9bc9-9af82a58e118.PNG)
+
 
 ### Steps taken to Optimize
 
