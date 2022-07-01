@@ -1,6 +1,5 @@
 import Toolbar from "@material-ui/core/Toolbar";
 import AppBar from "@material-ui/core/AppBar";
-import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Button from "@material-ui/core/Button";
@@ -9,7 +8,6 @@ import PublishIcon from "@material-ui/icons/Publish";
 import { DEFAULT_STRINGS, noop } from "utils/constants/common";
 import PropTypes from "prop-types";
 import { Box } from "@material-ui/core";
-import Grid from '@material-ui/core/Grid';
 
 // Navbar styles
 const useStyles = makeStyles((theme) => ({
@@ -19,9 +17,6 @@ const useStyles = makeStyles((theme) => ({
   menuButton: {
     borderRadius: 0,
     marginRight: theme.spacing(1),
-  },
-  navLogo: {
-    flexGrow: 0,
   },
 }));
 
@@ -44,7 +39,6 @@ const Navbar = ({ onMenuButtonClick = noop, onImportButtonClick = noop }) => {
           
           <Box //logo
           component="img"
-          className={classes.navLogo}
           display="flex" justifyContent="center" alignItems="center"
           sx={{
             height: 40,
