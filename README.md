@@ -16,7 +16,7 @@ A Web App For Basic SQL editor view to demonstrate where your users can query ea
 
 ## How to run:
 
-1. [Download] or [Clone] the Repository.
+1. [Download] or [Clone](https://github.com/blueuwu/mysqleditor.git) the Repository.
 2. Run `yarn install` to install the project dependencies.
 
 3. Run `yarn start` to run the app in development mode.
